@@ -1,0 +1,2745 @@
+CRITICAL - 2026-04-03 03:58:50 --> Error: Class "Config\Kint" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\Autoloader\Autoloader.php on line 531.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(498): CodeIgniter\Autoloader\Autoloader->configureKint()
+ 2 SYSTEMPATH\Boot.php(385): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+ 3 SYSTEMPATH\Boot.php(160): CodeIgniter\Boot::initializeKint()
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-03 03:58:50 --> ErrorException: Uncaught TypeError: CodeIgniter\HTTP\ContentSecurityPolicy::__construct(): Argument #1 ($config) must be of type Config\ContentSecurityPolicy, null given, called in D:\wamp64\www\multi_auth_system\system\Config\Services.php on line 194 and defined in D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\HTTP\ContentSecurityPolicy.php:354
+Stack trace:
+#0 D:\wamp64\www\multi_auth_system\system\Config\Services.php(194): CodeIgniter\HTTP\ContentSecurityPolicy->__construct(NULL)
+#1 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(325): CodeIgniter\Config\Services::csp(NULL, false)
+#2 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('csp', Array)
+#3 D:\wamp64\www\multi_auth_system\system\Config\Services.php(189): CodeIgniter\Config\BaseService::getSharedInstance('csp', NULL)
+#4 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(334): CodeIgniter\Config\Services::csp()
+#5 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('csp', Array)
+#6 D:\wamp64\www\multi_auth_system\system\Common.php(1078): CodeIgniter\Config\BaseService::get('csp')
+#7 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\HTTP\Response.php(160): service('csp')
+#8 D:\wamp64\www\multi_auth_system\system\Config\Services.php(589): CodeIgniter\HTTP\Response->__construct(Object(Config\App))
+#9 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(325): CodeIgniter\Config\Services::response(Object(Config\App), false)
+#10 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('response', Array)
+#11 D:\wamp64\www\multi_auth_system\system\Config\Services.php(584): CodeIgniter\Config\BaseService::getSharedInstance('response', NULL)
+#12 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(334): CodeIgniter\Config\Services::response()
+#13 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('response', Array)
+#14 D:\wamp64\www\multi_auth_system\system\Common.php(1078): CodeIgniter\Config\BaseService::get('response')
+#15 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\Debug\Exceptions.php(146): service('response')
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#17 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Config\Kint" not found
+#0 D:\wamp64\www\multi_auth_system\system\Autoloader\Autoloader.php(498): CodeIgniter\Autoloader\Autoloader->configureKint()
+#1 D:\wamp64\www\multi_auth_system\system\Boot.php(385): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+#2 D:\wamp64\www\multi_auth_system\system\Boot.php(160): CodeIgniter\Boot::initializeKint()
+#3 D:\wamp64\www\multi_auth_system\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#4 {main}
+[Method: GET, Route: /]
+in VENDORPATH\codeigniter4\framework\system\HTTP\ContentSecurityPolicy.php on line 354.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-03 03:59:07 --> Error: Class "Config\Kint" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\Autoloader\Autoloader.php on line 531.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(498): CodeIgniter\Autoloader\Autoloader->configureKint()
+ 2 SYSTEMPATH\Boot.php(385): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+ 3 SYSTEMPATH\Boot.php(160): CodeIgniter\Boot::initializeKint()
+ 4 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-03 03:59:07 --> ErrorException: Uncaught TypeError: CodeIgniter\Format\Format::__construct(): Argument #1 ($config) must be of type Config\Format, null given, called in D:\wamp64\www\multi_auth_system\system\Config\Services.php on line 313 and defined in D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\Format\Format.php:26
+Stack trace:
+#0 D:\wamp64\www\multi_auth_system\system\Config\Services.php(313): CodeIgniter\Format\Format->__construct(NULL)
+#1 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(325): CodeIgniter\Config\Services::format(NULL, false)
+#2 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('format', Array)
+#3 D:\wamp64\www\multi_auth_system\system\Config\Services.php(308): CodeIgniter\Config\BaseService::getSharedInstance('format', NULL)
+#4 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(334): CodeIgniter\Config\Services::format()
+#5 D:\wamp64\www\multi_auth_system\system\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('format', Array)
+#6 D:\wamp64\www\multi_auth_system\system\Common.php(1078): CodeIgniter\Config\BaseService::get('format')
+#7 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\API\ResponseTrait.php(306): service('format')
+#8 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\API\ResponseTrait.php(111): CodeIgniter\Debug\ExceptionHandler->format(Array)
+#9 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(95): CodeIgniter\Debug\ExceptionHandler->respond(Array, 500)
+#10 D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\Debug\Exceptions.php(151): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#11 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#12 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Config\Kint" not found
+#0 D:\wamp64\www\multi_auth_system\system\Autoloader\Autoloader.php(498): CodeIgniter\Autoloader\Autoloader->configureKint()
+#1 D:\wamp64\www\multi_auth_system\system\Boot.php(385): CodeIgniter\Autoloader\Autoloader->initializeKint(true)
+#2 D:\wamp64\www\multi_auth_system\system\Boot.php(160): CodeIgniter\Boot::initializeKint()
+#3 D:\wamp64\www\multi_auth_system\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#4 {main}
+[Method: GET, Route: /]
+in VENDORPATH\codeigniter4\framework\system\Format\Format.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-03 04:02:18 --> ErrorException: Undefined property: Config\Database::$defaultGroup
+[Method: CLI, Route: migrate]
+in VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php on line 154.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'D:\\wamp64\\www\\multi_auth_system\\vendor\\codeigniter4\\framework\\system\\Database\\MigrationRunner.php', 154)
+ 2 SYSTEMPATH\Config\Services.php(421): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), null)
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 5 SYSTEMPATH\Config\Services.php(416): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::migrations()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 8 SYSTEMPATH\Common.php(1078): CodeIgniter\Config\BaseService::get('migrations')
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(73): service('migrations')
+10 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+11 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+12 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+13 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+14 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-03 04:02:28 --> ErrorException: Undefined property: Config\Database::$defaultGroup
+[Method: CLI, Route: migrate]
+in VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php on line 154.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Database::$defaultGroup', 'D:\\wamp64\\www\\multi_auth_system\\vendor\\codeigniter4\\framework\\system\\Database\\MigrationRunner.php', 154)
+ 2 SYSTEMPATH\Config\Services.php(421): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), null)
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 5 SYSTEMPATH\Config\Services.php(416): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::migrations()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 8 SYSTEMPATH\Common.php(1078): CodeIgniter\Config\BaseService::get('migrations')
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(73): service('migrations')
+10 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+11 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+12 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+13 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+14 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:05:57 --> Specified key was too long; max key length is 1000 bytes
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-03 04:05:57 --> ErrorException: require(D:\wamp64\www\multi_auth_system\app\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: migrate]
+in VENDORPATH\codeigniter4\framework\system\CLI\BaseCommand.php on line 133.
+ 1 VENDORPATH\codeigniter4\framework\system\CLI\BaseCommand.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\wamp64\\www\\multi_auth_system\\app\\Views/errors/cli/error_exception.php): Failed to open stream: No such file or directory', 'D:\\wamp64\\www\\multi_auth_system\\vendor\\codeigniter4\\framework\\system\\CLI\\BaseCommand.php', 133)
+ 2 VENDORPATH\codeigniter4\framework\system\CLI\BaseCommand.php(133): require()
+ 3 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(104): CodeIgniter\CLI\BaseCommand->showError(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+ 4 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+ 5 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+ 6 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:07:06 --> Specified key was too long; max key length is 1000 bytes
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:08:48 --> Duplicate key name 'email'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `email` (`email`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:10:06 --> Duplicate key name 'username'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:10:54 --> Duplicate key name 'username'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:11:55 --> Duplicate key name 'username'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `username` (`username`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:13:40 --> Invalid default value for 'created_at'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:14:07 --> Invalid default value for 'created_at'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` TIMESTAMP NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` TIMESTAMP NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([...])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:16:08 --> Invalid default value for 'created_at'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` DATETIME NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` DATETIME NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` DATETIME NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`email` VARCHAR(255) NOT NULL UNIQUE,
+	`username` VARCHAR(100) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL,
+	`first_name` VARCHAR(100) NOT NULL,
+	`last_name` VARCHAR(100) NOT NULL,
+	`phone` VARCHAR(20) NULL,
+	`status` ENUM(\'active\', \'inactive\', \'suspended\') NOT NULL DEFAULT \'inactive\',
+	`email_verification_token` VARCHAR(100) NULL,
+	`email_verified_at` DATETIME NULL,
+	`password_reset_token` VARCHAR(100) NULL,
+	`password_reset_expires` DATETIME NULL,
+	`last_login` DATETIME NULL,
+	`last_login_ip` VARCHAR(45) NULL,
+	`failed_login_attempts` INT(11) NOT NULL DEFAULT 0,
+	`locked_until` DATETIME NULL,
+	`created_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`updated_at` DATETIME NOT NULL DEFAULT \'CURRENT_TIMESTAMP\',
+	`deleted_at` DATETIME NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`),
+	KEY `status` (`status`),
+	KEY `deleted_at` (`deleted_at`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000001_CreateUsersTable.php(127): CodeIgniter\Database\Forge->createTable('users', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-04-03 04:23:02 --> Duplicate key name 'slug'
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `roles` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(100) NOT NULL UNIQUE,
+	`slug` VARCHAR(100) NOT NULL UNIQUE,
+	`description` TEXT NULL,
+	`is_system` TINYINT(1) NOT NULL DEFAULT 0 COMMENT \'Protected system role that cannot be deleted\',
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_roles` PRIMARY KEY(`id`),
+	KEY `slug` (`slug`),
+	KEY `is_system` (`is_system`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `roles` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(100) NOT NULL UNIQUE,
+	`slug` VARCHAR(100) NOT NULL UNIQUE,
+	`description` TEXT NULL,
+	`is_system` TINYINT(1) NOT NULL DEFAULT 0 COMMENT \'Protected system role that cannot be deleted\',
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_roles` PRIMARY KEY(`id`),
+	KEY `slug` (`slug`),
+	KEY `is_system` (`is_system`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `roles` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(100) NOT NULL UNIQUE,
+	`slug` VARCHAR(100) NOT NULL UNIQUE,
+	`description` TEXT NULL,
+	`is_system` TINYINT(1) NOT NULL DEFAULT 0 COMMENT \'Protected system role that cannot be deleted\',
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_roles` PRIMARY KEY(`id`),
+	KEY `slug` (`slug`),
+	KEY `is_system` (`is_system`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `roles` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(100) NOT NULL UNIQUE,
+	`slug` VARCHAR(100) NOT NULL UNIQUE,
+	`description` TEXT NULL,
+	`is_system` TINYINT(1) NOT NULL DEFAULT 0 COMMENT \'Protected system role that cannot be deleted\',
+	`created_at` DATETIME NOT NULL,
+	`updated_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_roles` PRIMARY KEY(`id`),
+	KEY `slug` (`slug`),
+	KEY `is_system` (`is_system`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci')
+ 5 APPPATH\Database\Migrations\2021-01-01-000002_CreateRolesTable.php(59): CodeIgniter\Database\Forge->createTable('roles', true)
+ 6 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateRolesTable->up()
+ 7 VENDORPATH\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 VENDORPATH\codeigniter4\framework\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 VENDORPATH\codeigniter4\framework\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 VENDORPATH\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run([])
+12 VENDORPATH\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-04-03 05:21:33 --> ErrorException: Declaration of App\Controllers\BaseController::initController(CodeIgniter\HTTP\IncomingRequest $request, CodeIgniter\HTTP\ResponseInterface $response, $args = null) must be compatible with CodeIgniter\Controller::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-03 05:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 05:26:23 --> ArgumentCountError: Too few arguments to function App\Services\UserService::__construct(), 0 passed in D:\wamp64\www\multi_auth_system\app\Controllers\Auth.php on line 20 and exactly 3 expected
+[Method: GET, Route: login]
+in APPPATH\Services\UserService.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(20): App\Services\UserService->__construct()
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(921): App\Controllers\Auth->__construct()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 05:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 05:26:45 --> ArgumentCountError: Too few arguments to function App\Services\UserService::__construct(), 0 passed in D:\wamp64\www\multi_auth_system\app\Controllers\Auth.php on line 20 and exactly 3 expected
+[Method: GET, Route: register]
+in APPPATH\Services\UserService.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(20): App\Services\UserService->__construct()
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(921): App\Controllers\Auth->__construct()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 05:27:02 --> ArgumentCountError: Too few arguments to function App\Services\UserService::__construct(), 0 passed in D:\wamp64\www\multi_auth_system\app\Controllers\Auth.php on line 20 and exactly 3 expected
+[Method: GET, Route: login]
+in APPPATH\Services\UserService.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(20): App\Services\UserService->__construct()
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(921): App\Controllers\Auth->__construct()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 05:27:24 --> ArgumentCountError: Too few arguments to function App\Services\UserService::__construct(), 0 passed in D:\wamp64\www\multi_auth_system\app\Controllers\Auth.php on line 20 and exactly 3 expected
+[Method: GET, Route: login]
+in APPPATH\Services\UserService.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(20): App\Services\UserService->__construct()
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(921): App\Controllers\Auth->__construct()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 05:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 05:31:26 --> TypeError: CodeIgniter\Entity\Entity::__construct(): Argument #1 ($data) must be of type ?array, App\Entities\User given, called in D:\wamp64\www\multi_auth_system\app\Repositories\UserRepository.php on line 44
+[Method: POST, Route: register]
+in VENDORPATH\codeigniter4\framework\system\Entity\Entity.php on line 146.
+ 1 APPPATH\Repositories\UserRepository.php(44): CodeIgniter\Entity\Entity->__construct(Object(App\Entities\User))
+ 2 APPPATH\Services\AuthService.php(40): App\Repositories\UserRepository->findByEmail('test@example.com')
+ 3 APPPATH\Controllers\Auth.php(197): App\Services\AuthService->login('test@example.com', 'Test@1234')
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Auth->register()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 05:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 05:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:18:22 --> Error: Call to undefined method App\Repositories\UserRoleRepository::getRoles()
+[Method: POST, Route: login]
+in APPPATH\Services\RBACService.php on line 53.
+ 1 APPPATH\Services\RBACService.php(36): App\Services\RBACService->getUserRoleIds(1)
+ 2 APPPATH\Services\RBACService.php(253): App\Services\RBACService->getUserPermissions(1)
+ 3 APPPATH\Controllers\Auth.php(68): App\Services\RBACService->cacheUserPermissions(1)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Auth->login()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:21:04 --> Error: Call to undefined method App\Repositories\UserRoleRepository::getWithRoles()
+[Method: POST, Route: login]
+in APPPATH\Services\RBACService.php on line 53.
+ 1 APPPATH\Services\RBACService.php(36): App\Services\RBACService->getUserRoleIds(1)
+ 2 APPPATH\Services\RBACService.php(253): App\Services\RBACService->getUserPermissions(1)
+ 3 APPPATH\Controllers\Auth.php(68): App\Services\RBACService->cacheUserPermissions(1)
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Auth->login()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:22:17 --> Error: Call to undefined method App\Repositories\UserRoleRepository::getRoles()
+[Method: POST, Route: login]
+in APPPATH\Services\RBACService.php on line 66.
+ 1 APPPATH\Services\RBACService.php(254): App\Services\RBACService->getUserRoleNames(1)
+ 2 APPPATH\Controllers\Auth.php(68): App\Services\RBACService->cacheUserPermissions(1)
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Auth->login()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:23:01 --> Error: Call to undefined method App\Services\RBACService::userHasRoleSlug()
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layouts\main.php on line 67.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:24:20 --> Error: Call to undefined method App\Repositories\UserRoleRepository::getRoles()
+[Method: GET, Route: dashboard]
+in APPPATH\Services\RBACService.php on line 66.
+ 1 APPPATH\Controllers\Dashboard.php(33): App\Services\RBACService->getUserRoleNames(1)
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:26:35 --> Error: Call to undefined method App\Services\RBACService::userHasRoleSlug()
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layouts\main.php on line 67.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(256): CodeIgniter\View\View->render('layouts/main', [], true)
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(40): view('dashboard/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:28:46 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:32:16 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:32:18 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:32:33 --> ErrorException: Undefined array key "permission_count"
+[Method: GET, Route: roles]
+in APPPATH\Views\roles\index.php on line 46.
+ 1 APPPATH\Views\roles\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permission_count"', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php', 46)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('roles/index', [], true)
+ 5 APPPATH\Controllers\RoleManagement.php(33): view('roles/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\RoleManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:14 --> ErrorException: Undefined array key "permission_count"
+[Method: GET, Route: roles]
+in APPPATH\Views\roles\index.php on line 46.
+ 1 APPPATH\Views\roles\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permission_count"', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php', 46)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('roles/index', [], true)
+ 5 APPPATH\Controllers\RoleManagement.php(33): view('roles/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\RoleManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:19 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:25 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users/create]
+in APPPATH\Views\users\create.php on line 130.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/create', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(88): view('users/create', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->create()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:34 --> ErrorException: Undefined array key "permission_count"
+[Method: GET, Route: roles]
+in APPPATH\Views\roles\index.php on line 46.
+ 1 APPPATH\Views\roles\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permission_count"', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php', 46)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('roles/index', [], true)
+ 5 APPPATH\Controllers\RoleManagement.php(33): view('roles/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\RoleManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:39 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:33:47 --> Error: Cannot use object of type App\Entities\Role as array
+[Method: GET, Route: users]
+in APPPATH\Views\users\index.php on line 37.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 4 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:39:39 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_like" is not a valid Pager template.
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Pager\Pager.php on line 124.
+ 1 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_like')
+ 2 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_like')
+ 3 APPPATH\Views\users\index.php(136): CodeIgniter\Pager\Pager->links('default', 'bootstrap_like')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\users\\index.php')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 7 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:39:55 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_like" is not a valid Pager template.
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Pager\Pager.php on line 124.
+ 1 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_like')
+ 2 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_like')
+ 3 APPPATH\Views\users\index.php(136): CodeIgniter\Pager\Pager->links('default', 'bootstrap_like')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\users\\index.php')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 7 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:40:07 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_like" is not a valid Pager template.
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Pager\Pager.php on line 124.
+ 1 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_like')
+ 2 VENDORPATH\codeigniter4\framework\system\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_like')
+ 3 APPPATH\Views\users\index.php(136): CodeIgniter\Pager\Pager->links('default', 'bootstrap_like')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\users\\index.php')
+ 5 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('users/index', [], true)
+ 7 APPPATH\Controllers\UserManagement.php(73): view('users/index', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:42:20 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: permissions]
+in APPPATH\Views\permissions\index.php on line 36.
+ 1 APPPATH\Views\permissions\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('permissions/index', [], true)
+ 5 APPPATH\Controllers\PermissionManagement.php(25): view('permissions/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\PermissionManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermissionManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:42:43 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: permissions]
+in APPPATH\Views\permissions\index.php on line 36.
+ 1 APPPATH\Views\permissions\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('permissions/index', [], true)
+ 5 APPPATH\Controllers\PermissionManagement.php(25): view('permissions/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\PermissionManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermissionManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:42:49 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: roles]
+in APPPATH\Views\roles\index.php on line 36.
+ 1 APPPATH\Views\roles\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('roles/index', [], true)
+ 5 APPPATH\Controllers\RoleManagement.php(33): view('roles/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\RoleManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-03 06:42:59 --> Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:42:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 865.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:42:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 310.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 4 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:42:59 --> [Caused by] mysqli_sql_exception: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-03 06:43:06 --> Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 865.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 310.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 4 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:06 --> [Caused by] mysqli_sql_exception: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-03 06:43:18 --> Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `first_name` LIKE :first_name: ESCAPE \'!\'
+OR  `last_name` LIKE :last_name: ESCAPE \'!\'
+ )
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 865.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `first_name` LIKE :first_name: ESCAPE \'!\'
+OR  `last_name` LIKE :last_name: ESCAPE \'!\'
+ )
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 310.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `first_name` LIKE :first_name: ESCAPE \'!\'
+OR  `last_name` LIKE :last_name: ESCAPE \'!\'
+ )
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 4 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 06:43:18 --> [Caused by] mysqli_sql_exception: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE \'%system%\' ESCAPE \'!\'
+OR  `username` LIKE \'%system%\' ESCAPE \'!\'
+OR  `first_name` LIKE \'%system%\' ESCAPE \'!\'
+OR  `last_name` LIKE \'%system%\' ESCAPE \'!\'
+ )
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND   (
+`email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `first_name` LIKE :first_name: ESCAPE \'!\'
+OR  `last_name` LIKE :last_name: ESCAPE \'!\'
+ )
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:43:26 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: permissions]
+in APPPATH\Views\permissions\index.php on line 36.
+ 1 APPPATH\Views\permissions\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('permissions/index', [], true)
+ 5 APPPATH\Controllers\PermissionManagement.php(25): view('permissions/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\PermissionManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermissionManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:43:29 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: roles]
+in APPPATH\Views\roles\index.php on line 36.
+ 1 APPPATH\Views\roles\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\roles\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('roles/index', [], true)
+ 5 APPPATH\Controllers\RoleManagement.php(33): view('roles/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\RoleManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:48:21 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: permissions]
+in APPPATH\Views\permissions\index.php on line 36.
+ 1 APPPATH\Views\permissions\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('permissions/index', [], true)
+ 5 APPPATH\Controllers\PermissionManagement.php(25): view('permissions/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\PermissionManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermissionManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 06:48:28 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: permissions]
+in APPPATH\Views\permissions\index.php on line 36.
+ 1 APPPATH\Views\permissions\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php', 36)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(240): include('D:\\wamp64\\www\\multi_auth_system\\app\\Views\\permissions\\index.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('permissions/index', [], true)
+ 5 APPPATH\Controllers\PermissionManagement.php(25): view('permissions/index', [...])
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\PermissionManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermissionManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 06:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 06:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:29:10 --> CSRF token verified.
+DEBUG - 2026-04-03 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-03 07:30:52 --> Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:30:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 865.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:30:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 310.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 4 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:30:52 --> [Caused by] mysqli_sql_exception: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 07:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-04-03 07:31:01 --> Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:31:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+[Method: GET, Route: users]
+in VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php on line 865.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 2 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 4 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 5 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:31:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 310.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 4 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 7 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+CRITICAL - 2026-04-03 07:31:01 --> [Caused by] mysqli_sql_exception: Column 'created_at' in order clause is ambiguous
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 300.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(300): mysqli->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = \'active\'
+AND `user_roles`.`role_id` = \'1\'
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+INNER JOIN `user_roles` ON `user_roles`.`user_id` = `users`.`id`
+WHERE `deleted_at` IS NULL
+AND `status` = :status:
+AND `user_roles`.`role_id` = :user_roles.role_id:
+AND `users`.`deleted_at` IS NULL
+ORDER BY `created_at` DESC
+ LIMIT 20', [...], false)
+ 5 VENDORPATH\codeigniter4\framework\system\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(20, 0)
+ 7 VENDORPATH\codeigniter4\framework\system\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(20, 0)
+ 8 APPPATH\Controllers\UserManagement.php(56): CodeIgniter\BaseModel->paginate(20)
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->index()
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+11 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 07:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:31:50 --> CSRF token verified.
+DEBUG - 2026-04-03 07:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 07:31:50 --> TypeError: CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 583
+[Method: POST, Route: users/store]
+in VENDORPATH\codeigniter4\framework\system\HTTP\RequestTrait.php on line 262.
+ 1 VENDORPATH\codeigniter4\framework\system\HTTP\IncomingRequest.php(583): CodeIgniter\HTTP\Request->fetchGlobal('post', 'status', 'inactive', null)
+ 2 APPPATH\Controllers\UserManagement.php(106): CodeIgniter\HTTP\IncomingRequest->getPost('status', 'inactive')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->store()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:34:20 --> CSRF token verified.
+DEBUG - 2026-04-03 07:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-03 07:34:21 --> TypeError: CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in D:\wamp64\www\multi_auth_system\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 583
+[Method: POST, Route: users/store]
+in VENDORPATH\codeigniter4\framework\system\HTTP\RequestTrait.php on line 262.
+ 1 VENDORPATH\codeigniter4\framework\system\HTTP\IncomingRequest.php(583): CodeIgniter\HTTP\Request->fetchGlobal('post', 'status', 'inactive', null)
+ 2 APPPATH\Controllers\UserManagement.php(106): CodeIgniter\HTTP\IncomingRequest->getPost('status', 'inactive')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(951): App\Controllers\UserManagement->store()
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\multi_auth_system\\public\\index.php')
+DEBUG - 2026-04-03 07:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:37:34 --> CSRF token verified.
+DEBUG - 2026-04-03 07:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:37:51 --> CSRF token verified.
+DEBUG - 2026-04-03 07:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:38:28 --> CSRF token verified.
+DEBUG - 2026-04-03 07:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:38:56 --> CSRF token verified.
+DEBUG - 2026-04-03 07:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:39:05 --> CSRF token verified.
+DEBUG - 2026-04-03 07:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-03 07:49:37 --> CSRF token verified.
+DEBUG - 2026-04-03 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 07:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-03 08:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
